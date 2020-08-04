@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="GameNode.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFunc.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>FrameWork\SingletonManager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>FrameWork\SingletonManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>FrameWork\SingletonManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpImg.h">
+      <Filter>FrameWork\SingletonManager\ImgManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>FrameWork\SingletonManager\ImgManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>MainGame\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullet.h">
+      <Filter>MainGame\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>MainGame\CharManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>MainGame\CharManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Vecter.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ProduceOption.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="BossEnemy.h">
+      <Filter>MainGame\CharManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="TanMakGame.h">
+      <Filter>MainGame\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>MainGame\CharManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGroup.h">
+      <Filter>MainGame\CharManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>MainGame\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="SideScreen.h">
+      <Filter>MainGame\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>FrameWork\SingletonManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScreen.h">
+      <Filter>MainGame\MainGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinAPI32.cpp" />
+    <ClCompile Include="GameNode.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>FrameWork\SingletonManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>FrameWork\SingletonManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpImg.cpp">
+      <Filter>FrameWork\SingletonManager\ImgManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>FrameWork\SingletonManager\ImgManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>MainGame\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullet.cpp">
+      <Filter>MainGame\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>MainGame\CharManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>MainGame\CharManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Vecter.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ProduceOption.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="BossEnemy.cpp">
+      <Filter>MainGame\CharManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TanMakGame.cpp">
+      <Filter>MainGame\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>MainGame\CharManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGroup.cpp">
+      <Filter>MainGame\CharManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>MainGame\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="SideScreen.cpp">
+      <Filter>MainGame\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>FrameWork\SingletonManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScreen.cpp">
+      <Filter>MainGame\MainGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{289c80cb-4c84-44e9-bdf6-cfdcef084329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{971a6525-ca63-4baf-8c0c-1a79413b4e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\SingletonManager">
+      <UniqueIdentifier>{7fb5abe6-7e7b-4d7e-8d6f-d11dba56259d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\SingletonManager\ImgManager">
+      <UniqueIdentifier>{ae74c074-4a6e-471f-9a87-c485f46575f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Bullet">
+      <UniqueIdentifier>{951b5d7d-3eb7-4652-a6f5-8a8ac8e0def0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\CharManager">
+      <UniqueIdentifier>{6e643bbf-6dfe-4cbf-a867-1556089f8885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{093288ac-e9c5-4585-bce0-91ab608da188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\MainGame">
+      <UniqueIdentifier>{494e7b79-3b2a-405c-bda6-6dab71f9f4b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{077c8948-04aa-45d1-be13-e6301016c04f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
